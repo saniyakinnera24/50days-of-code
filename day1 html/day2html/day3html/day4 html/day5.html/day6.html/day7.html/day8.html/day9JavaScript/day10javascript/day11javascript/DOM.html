@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+         <p id="demo">Hello</p>
+<script>
+    const para=document.getElementById("demo");
+    para.style.color="brown";
+</script>
+<p class="text">ONE</p>
+<p class="text">TWO</p>
+<p class="text">THREE</p>
+<script>
+    const items=document.getElementsByClassName("text");
+    for(let i=0;i<items.length;i++){
+        items[i].style.color="red";
+    }
+</script>
+</body>
+</html>

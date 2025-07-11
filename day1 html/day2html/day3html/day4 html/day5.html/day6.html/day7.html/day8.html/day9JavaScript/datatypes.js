@@ -1,0 +1,10 @@
+let name="saniya";
+console.log(typeof name);
+let price=299.99;
+console.log(typeof price);
+let action=true;
+console.log(typeof action);
+let myPhonename;
+console.log(typeof myPhonenumber);
+let nullValue=null;
+console.log(typeof nullValue);
